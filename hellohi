@@ -1,0 +1,6 @@
+#first program
+
+def main() {
+print ("Hi, my name is Toni Williams and I go by she/they.")
+print("\nI really like the movie 'The Never Ending Story' (I think it's my favorite movie) and my favorite food is cheese.")
+}
