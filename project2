@@ -1,0 +1,18 @@
+float1 = float(input("Enter the first float: "))
+float2 = float(input("Enter the second float: "))
+sum = float1 + float2
+print("The sum of", float1, "and", float2, "is", sum)
+print("The data type is", type(sum))
+
+int1 = float(input("Enter the first integer: "))
+int2 = float(input("Enter the second integer: "))
+difference = int1 - int2
+if difference < 0:
+  print("The difference between", int1, "and", int2, "is", -difference)
+else: 
+  print("The difference between", int1, "and", int2, "is", difference)
+print("The data type is", type(difference))
+
+product = float1 * int1
+print("The product of", float1, "and", int1, "is", product)
+print("The data type is", type(product))
